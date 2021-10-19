@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "name": "IFFAT TASNIM",
+        "category": "Consultant",
+        "Department": "Gynae & Obstetrics",
+        "degree": "MBBS(Dhaka Medical College), FCPS (Gynae & Obs), BCS",
+        "imageURL": "https://i.ibb.co/QJzw9CF/01.jpg"
+    },
+    {
+        "id": "2",
+        "name": "ASIF AL ISLAM",
+        "category": "Chief Consultant",
+        "Department": "Nuro Medicine",
+        "degree": "MBBS(Dhaka Medical College), FCPS (Medicine), MSCP(USA)",
+        "imageURL": "https://i.ibb.co/c32kkVr/03.jpg"
+    },
+    {
+        "id": "3",
+        "name": "ADIBA TASNIM",
+        "category": "Surgeon",
+        "Department": "Pediatric",
+        "degree": "MBBS,FCPS(Medicine), MSCP (USA), MD(USA)",
+        "imageURL": "https://i.ibb.co/0QF46LK/04.jpg"
+    },
+    {
+        "id": "4",
+        "name": "SAIFULLAH SAMMO",
+        "category": "Associate Professor",
+        "Department": "Cardiology",
+        "degree": "MBBS,FCPS(Medicine), MSCP (USA), FICS(Britain)",
+        "imageURL": "https://i.ibb.co/xMz2wv5/06.jpg"
+    }
+]

@@ -1,0 +1,7 @@
+.menu-item {
+    color: black;
+    text-transform: uppercase;
+}
+.menu-item:hover {
+    color: #00CCCC;
+}

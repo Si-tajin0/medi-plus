@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "HEALTH CARE",
+        "description": "In different ages your healthcare needs change too, you can still the benefit from many screening tests and we are here to help you.",
+        "imageURL": "https://i.ibb.co/7z5XD1G/stethoscope-icon-2316460-960-720-2.png"
+    },
+    {
+        "id": "2",
+        "name": "EMERGENCY UNIT",
+        "description": "We provides 24-hour emergency care for adults and children at our emergency unit with a team of experts who are trained for emergency care.",
+        "imageURL": "https://i.ibb.co/vJSN9pz/stethoscope-icon-2316460-960-720.png"
+    },
+    {
+        "id": "3",
+        "name": "QUALIFIED DOCTORS",
+        "description": "Our doctors know problems inside and out, they studied it, fought it and beat it, thousands of people count on us to help them.",
+        "imageURL": "https://i.ibb.co/5BFq4D6/stethoscope-icon-2316460-960-720-1.png"
+    },
+    {
+        "id": "4",
+        "name": "LAB TEST REPORTS",
+        "description": "Laboratory tests are among the most important in modern medicine. Healthcare decisions are derived from clinical laboratory tests.",
+        "imageURL": "https://i.ibb.co/KrPGMzn/stethoscope-icon-2316460-960-720-4.png"
+    },
+    {
+        "id": "5",
+        "name": "OUT PATIENT SERVICE",
+        "description": "Our outpatient services is the smooth patient flow from registration, examination, payment of prescribed medications, along with computer system.",
+        "imageURL": "https://i.ibb.co/9ndWKgs/stethoscope-icon-2316460-960-720-5.png"
+    },
+    {
+        "id": "6",
+        "name": "VISITING HOURS",
+        "description": "Visitors are welcome during 4pm - 8pm - but please note that we have a compulsory rest period for all patients who have had major surgery",
+        "imageURL": "https://i.ibb.co/6PGZPBN/flat-2442462-1280-1.png"
+    }
+]

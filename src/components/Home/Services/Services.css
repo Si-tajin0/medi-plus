@@ -1,0 +1,33 @@
+#services {
+    padding-top: 70px;
+}
+.service-container h1 {
+    color: #00CCCC;
+}
+.service-cart h2 {
+    color: #00CCCC;
+}
+.service-cart button {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #00CCCC;
+    padding: 8px 15px;
+    transition: 0.5s;
+}
+.service-cart button:hover {
+    color: #fff;
+    background:grey;
+    padding: 8px 15px;
+    box-shadow: 0 1px 3px gray;
+}
+
+.underline {
+    content: '';
+    height: 5px;
+    width: 60px;
+    position: absolute;
+    background: #00CCCC;
+    left: 48%;
+    margin-bottom: 20px;
+}

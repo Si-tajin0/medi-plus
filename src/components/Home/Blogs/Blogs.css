@@ -1,0 +1,16 @@
+.blog-item {
+    transition: 0.5s;
+}
+.blog-item:hover {
+    box-shadow: 0 5px 10px gray;
+    border-radius: 5px;
+}
+.icon span{
+    color: #00CCCC;
+} 
+
+.title:hover {
+    color: #00CCCC;
+    cursor: pointer;
+}
+
