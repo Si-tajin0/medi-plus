@@ -1,4 +1,4 @@
-import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, GithubAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile } from "firebase/auth";
+import { getAuth, signInWithPopup, GoogleAuthProvider, signOut, onAuthStateChanged, GithubAuthProvider, createUserWithEmailAndPassword, signInWithEmailAndPassword, sendEmailVerification, sendPasswordResetEmail, updateProfile, FacebookAuthProvider } from "firebase/auth";
 import { useEffect, useState } from "react";
 import initializeFirebase from "../components/Shared/Login/firebase/Firebase.init";
 
@@ -35,6 +35,21 @@ const useFirebase = () => {
         setIsLoading(true);
         const gitHubProvider = new GithubAuthProvider();
         signInWithPopup(auth, gitHubProvider)
+            .then(result => {
+                setUser(result.user);
+                setError('');
+            })
+            .catch(error => {
+                setError(error.message)
+            })
+            .finally(() => setIsLoading(false));
+    }
+
+    // handle facebook login
+    const signInUsingFacebook = () => {
+        setIsLoading(true);
+        const facebookProvider = new FacebookAuthProvider();
+        signInWithPopup(auth, facebookProvider)
             .then(result => {
                 setUser(result.user);
                 setError('');
@@ -164,6 +179,7 @@ const useFirebase = () => {
         nameChange,
         passwordChange,
         signUpUsingEmail,
+        signInUsingFacebook,
         loginEmailPassword,
         passwordReset,
         error

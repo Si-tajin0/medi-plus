@@ -34,7 +34,7 @@ const Register = () => {
                                 <Form.Control onBlur={passwordChange} type="password" placeholder="Password" required />
                             </Form.Group>
                             <div className="mb-3 text-danger">{error}</div>
-                            <Button variant="primary" type="submit">
+                            <Button variant="info" type="submit">
                                 Sign up
                             </Button>
 
@@ -43,11 +43,11 @@ const Register = () => {
                         <p>Or Login with</p>
                         <div className="login-btn">
                             <Button><FaFacebook /></Button>
-                            <Button onClick={signInUsingGoogle}><FaGoogle /></Button>
-                            <Button onClick={signInUsingGitHub}><FaGithub /></Button>
+                            <Button className="bg-danger" onClick={signInUsingGoogle}><FaGoogle /></Button>
+                            <Button className="bg-secondary" onClick={signInUsingGitHub}><FaGithub /></Button>
                         </div>
                         <br />
-                        <Link to='/login'><Button variant="link">Already Have a Account</Button></Link>
+                        <Link to='/login'><Button className="text-info" variant="link">Already Have a Account</Button></Link>
                     </div>
                     {/* image section */}
                     <div className="col-md-6">
@@ -55,7 +55,7 @@ const Register = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

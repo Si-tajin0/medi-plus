@@ -8,7 +8,7 @@ import useAuth from '../../../hooks/useAuth';
 
 const Login = () => {
     // import use firebase
-    const { signInUsingGoogle, signInUsingGitHub, loginEmailPassword, error, passwordReset } = useAuth();
+    const { signInUsingGoogle, signInUsingGitHub, loginEmailPassword, signInUsingFacebook, error, passwordReset } = useAuth();
     return (
         <div>
             <div className="container">
@@ -40,13 +40,13 @@ const Login = () => {
                         <br />
                         <p>Or Login with</p>
                         <div className="login-btn">
-                            <Button><FaFacebook /></Button>
-                            <Button onClick={signInUsingGoogle}><FaGoogle /></Button>
-                            <Button onClick={signInUsingGitHub}><FaGithub /></Button>
+                            <Button onClick={signInUsingFacebook}><FaFacebook /></Button>
+                            <Button className="bg-danger" onClick={signInUsingGoogle}><FaGoogle /></Button>
+                            <Button className="bg-secondary" onClick={signInUsingGitHub}><FaGithub /></Button>
                         </div>
                         <br />
                         <span>Are You New?</span>
-                        <Link to='/register'><Button variant="link">Please Register</Button></Link>
+                        <Link to='/register'><Button className="text-info" variant="link">Please Register</Button></Link>
                     </div>
                 </div>
             </div>
