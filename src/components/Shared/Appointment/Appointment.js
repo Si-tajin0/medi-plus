@@ -69,7 +69,7 @@ const Appointment = () => {
                                 />
                             </FloatingLabel>
 
-                            <Button variant="primary" type="submit">
+                            <Button className="mt-2" variant="info" type="submit">
                                 Submit
                             </Button>
                         </Form>
